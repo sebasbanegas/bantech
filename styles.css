@@ -24,6 +24,7 @@ body {
   font-family: "Manrope", "Segoe UI", sans-serif;
   color: var(--ink);
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 body.lightbox-open {
@@ -494,47 +495,75 @@ h2 {
   }
 
   .hero {
-    min-height: 86vh;
-    background-size: 95vw auto;
-    background-position: center bottom;
+    min-height: 720px;
   }
 
   .hero-media {
-    opacity: 0.42;
+    opacity: 0.5;
+  }
+
+  .hero-phone {
+    width: clamp(84px, 25vw, 106px);
+    border-radius: 18px;
+    padding: 0.25rem;
   }
 
   .hero-phone--one {
-    left: 6%;
+    left: 13%;
     right: auto;
     top: auto;
-    bottom: 8%;
+    bottom: 2.5rem;
+    z-index: 1;
   }
 
   .hero-phone--two {
-    right: 5%;
+    left: 61%;
+    right: auto;
     top: auto;
-    bottom: 11%;
+    bottom: 2.8rem;
+    z-index: 2;
   }
 
   .hero-phone--three {
-    display: none;
+    left: 37%;
+    right: auto;
+    top: auto;
+    bottom: 1.2rem;
+    z-index: 3;
   }
 
   .hero-content {
-    padding-top: 4rem;
-    padding-bottom: 18rem;
+    padding-top: 3.4rem;
+    padding-bottom: 17rem;
   }
 
   h1 {
-    font-size: clamp(3rem, 18vw, 5rem);
+    font-size: clamp(2.7rem, 15vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(1.65rem, 9vw, 2.35rem);
+  }
+
+  .hero-copy {
+    width: min(100%, calc(100vw - 2rem));
+    max-width: calc(100vw - 2rem);
+    font-size: 0.98rem;
+    line-height: 1.55;
+    overflow-wrap: break-word;
+  }
+
+  .product-index,
+  .app-section {
+    padding-block: 3.2rem;
   }
 
   .showcase {
-    padding-inline: 2rem;
+    padding: 0.8rem 1.9rem;
   }
 
   .showcase-track {
-    grid-auto-columns: clamp(106px, 42vw, 150px);
+    grid-auto-columns: clamp(92px, 33vw, 124px);
   }
 
   .footer-inner {
