@@ -3,354 +3,213 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dinario y Cypher Notes | Productividad privada y sin complicaciones</title>
+    <title>BANTECH | Apps moviles simples, privadas y utiles</title>
     <meta
       name="description"
-      content="Descargá Dinario y Cypher Notes en Google Play. Dos apps rápidas para finanzas y notas seguras, sin cuentas obligatorias y con tus datos bajo control."
+      content="BANTECH desarrolla apps moviles para finanzas personales, notas privadas y coleccionismo. Conoce Dinario, Cypher Notes y Figus."
     />
-    <meta name="theme-color" content="#0e1726" />
-    <meta property="og:title" content="Dinario y Cypher Notes" />
-    <meta
-      property="og:description"
-      content="Organizá tu dinero y protegé tus notas con apps ágiles, privadas y listas para usar."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="es_AR" />
+    <meta name="theme-color" content="#f5f7fb" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="bg-shape bg-shape--top" aria-hidden="true"></div>
-    <div class="bg-shape bg-shape--mid" aria-hidden="true"></div>
-
     <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="#inicio">BANTECH Apps</a>
-        <nav class="nav" aria-label="Navegación principal">
+      <div class="container topbar">
+        <a class="brand" href="#inicio" aria-label="BANTECH inicio">
+          <span class="brand-mark">B</span>
+          <span>BANTECH</span>
+        </a>
+        <nav class="nav" aria-label="Navegacion principal">
           <a href="#dinario">Dinario</a>
-          <a href="#cypher-notes">Cypher Notes</a>
-          <a href="#comparativa">¿Por qué nosotros?</a>
+          <a href="#cypher">Cypher Notes</a>
+          <a href="#figus">Figus</a>
         </nav>
       </div>
     </header>
 
     <main id="inicio">
-      <section class="hero container section">
-        <div class="hero__text">
-          <span class="eyebrow">Dos apps, cero fricción</span>
-          <h1>Tu dinero en orden y tus notas protegidas, desde hoy.</h1>
-          <p>
-            Pasá de la intención a la acción con herramientas simples, rápidas y privadas. Menos
-            vueltas, más control en tu día a día.
-          </p>
-          <div class="cta-row">
-            <a
-              class="btn btn--primary btn--download"
-              href="https://play.google.com/store/apps/details?id=com.sebasbanegas.dinario"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                class="btn__icon"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.25"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M4 16v1.5A2.5 2.5 0 0 0 6.5 20h11a2.5 2.5 0 0 0 2.5-2.5V16" />
-                <path d="M8 10l4 4 4-4" />
-                <path d="M12 14V4" />
-              </svg>
-              Descargar Dinario gratis
-            </a>
-            <a
-              class="btn btn--download btn--download-app"
-              href="https://play.google.com/store/apps/details?id=com.sebasbanegas.crypto_notes"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <svg
-                class="btn__icon"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2.25"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M4 16v1.5A2.5 2.5 0 0 0 6.5 20h11a2.5 2.5 0 0 0 2.5-2.5V16" />
-                <path d="M8 10l4 4 4-4" />
-                <path d="M12 14V4" />
-              </svg>
-              Descargar Cypher Notes gratis
-            </a>
-          </div>
-          <p class="microcopy">Instalación en minutos. Sin registro obligatorio.</p>
-          <ul class="hero-badges" aria-label="Puntos clave">
-            <li>Sin cuentas obligatorias</li>
-            <li>Listas para usar offline</li>
-            <li>Privacidad desde el día uno</li>
-          </ul>
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img class="hero-phone hero-phone--one" src="DINARIO/1.png" alt="" />
+          <img class="hero-phone hero-phone--two" src="CYPHER_NOTES/Screenshot_20260422_150636.jpg" alt="" />
+          <img class="hero-phone hero-phone--three" src="FIGUS/Screenshot_20260512_101319.jpg" alt="" />
         </div>
-
-        <div class="hero__media" aria-label="Imágenes de las apps">
-          <article class="phone-placeholder">
-            <img
-              class="phone-shot"
-              src="DINARIO/presentacion.png"
-              alt="Vista principal de Dinario"
-              loading="eager"
-            />
-            <div class="phone-thumbs" aria-label="Más vistas de Dinario">
-              <img src="DINARIO/4.png" alt="Dinario: más funciones" loading="lazy" />
-              <img src="DINARIO/funciones.png" alt="Dinario: resumen de funciones" loading="lazy" />
-              <img src="DINARIO/1.png" alt="Dinario: interfaz" loading="lazy" />
-            </div>
-          </article>
-          <article class="phone-placeholder phone-placeholder--alt">
-            <img
-              class="phone-shot"
-              src="CYPHER_NOTES/caratula.jpg"
-              alt="Cypher Notes: presentación"
-              loading="eager"
-            />
-            <div class="phone-thumbs" aria-label="Más vistas de Cypher Notes">
-              <img
-                src="CYPHER_NOTES/Screenshot_20260421_142840.jpg"
-                alt="Cypher Notes: notas y cuadrícula"
-                loading="lazy"
-              />
-              <img
-                src="CYPHER_NOTES/Screenshot_20260422_150631.jpg"
-                alt="Cypher Notes: detalle de nota"
-                loading="lazy"
-              />
-              <img
-                src="CYPHER_NOTES/Screenshot_20260422_150636.jpg"
-                alt="Cypher Notes: opciones o seguridad"
-                loading="lazy"
-              />
-            </div>
-          </article>
+        <div class="container hero-content">
+          <p class="eyebrow">Mobile Apps Studio</p>
+          <h1>BANTECH</h1>
+          <p class="hero-copy">
+            Creamos apps moviles claras, privadas y rapidas para resolver tareas concretas: ordenar tu
+            dinero, proteger tus notas y gestionar tus colecciones.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#productos">Ver productos</a>
+            <a class="btn btn--ghost" href="#figus">Conocer Figus</a>
+          </div>
         </div>
       </section>
 
-      <section id="valor" class="value section section--soft">
+      <section id="productos" class="product-index">
         <div class="container">
-          <h2>Todo lo que necesitás para avanzar, sin ruido.</h2>
-          <p class="section-lead">
-            Mientras otras apps te distraen con pasos de más, Dinario y Cypher Notes te ayudan a
-            resolver rápido: registrar, organizar y proteger.
-          </p>
-          <div class="grid-3">
-            <article class="card">
-              <h3>Empezás al instante</h3>
-              <p>Registrá un gasto o una nota en pocos toques, sin procesos largos ni curva de aprendizaje.</p>
-            </article>
-            <article class="card">
-              <h3>Privacidad real</h3>
-              <p>Tu información se queda con vos. Menos exposición y más tranquilidad en cada uso.</p>
-            </article>
-            <article class="card">
-              <h3>Continuidad total</h3>
-              <p>Sin internet, seguís igual. Tu organización no depende de la señal ni de terceros.</p>
-            </article>
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Tres apps, tres experiencias enfocadas.</h2>
+          </div>
+          <div class="product-cards">
+            <a class="product-card" href="#dinario">
+              <img src="DINARIO/icono.png" alt="Icono de Dinario" />
+              <span>Dinario</span>
+              <small>Finanzas personales</small>
+            </a>
+            <a class="product-card" href="#cypher">
+              <img src="CYPHER_NOTES/caratula.jpg" alt="Icono de Cypher Notes" />
+              <span>Cypher Notes</span>
+              <small>Notas privadas</small>
+            </a>
+            <a class="product-card" href="#figus">
+              <img src="FIGUS/icono.png" alt="Icono de Figus" />
+              <span>Figus</span>
+              <small>Coleccionismo</small>
+            </a>
           </div>
         </div>
       </section>
 
-      <section id="dinario" class="section app-block container">
-        <div class="app-block__content">
-          <span class="eyebrow">Dinario</span>
-          <h2>Controlá tu dinero sin planillas ni estrés.</h2>
-          <p>
-            Dinario te muestra lo esencial para que tomes decisiones claras. Registrás, entendés y
-            mejorás tus hábitos sin perder tiempo.
-          </p>
-          <ul class="benefits">
-            <li>Registrá movimientos al instante y mantené el ritmo.</li>
-            <li>Vé tu balance mensual en una sola mirada.</li>
-            <li>Detectá oportunidades de ahorro con estadísticas claras.</li>
-            <li>Personalizá categorías para reflejar tu realidad.</li>
-            <li>Gestioná todo offline, con privacidad local.</li>
-          </ul>
-          <a
-            class="btn btn--primary"
-            href="https://play.google.com/store/apps/details?id=com.sebasbanegas.dinario"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Descargar en Google Play
-          </a>
-        </div>
-        <div class="app-block__media screenshots">
-          <figure class="screenshot">
-            <img src="DINARIO/1.png" alt="Pantalla de inicio de Dinario" loading="lazy" />
-          </figure>
-          <figure class="screenshot">
-            <img src="DINARIO/2.png" alt="Estadísticas de gastos en Dinario" loading="lazy" />
-          </figure>
-          <figure class="screenshot">
-            <img src="DINARIO/3.png" alt="Categorías personalizadas en Dinario" loading="lazy" />
-          </figure>
-          <figure class="screenshot">
-            <img src="DINARIO/4.png" alt="Dinario: otras capacidades" loading="lazy" />
-          </figure>
-          <figure class="screenshot">
-            <img src="DINARIO/funciones.png" alt="Dinario: funciones" loading="lazy" />
-          </figure>
-        </div>
-      </section>
-
-      <section id="cypher-notes" class="section app-block app-block--reverse container">
-        <div class="app-block__content">
-          <span class="eyebrow">Cypher Notes</span>
-          <h2>Tus ideas valen: mantenelas seguras de verdad.</h2>
-          <p>
-            Cypher Notes combina simplicidad y seguridad para que escribas con confianza, desde
-            recordatorios diarios hasta información sensible.
-          </p>
-          <ul class="benefits">
-            <li>Protegé tus notas con encriptación y biometría.</li>
-            <li>Bloqueá notas puntuales cuando necesites máxima reserva.</li>
-            <li>Recuperá notas eliminadas desde la papelera integrada.</li>
-            <li>Escribí y consultá offline, sin depender de la nube.</li>
-            <li>Mantené foco con una interfaz rápida y directa.</li>
-          </ul>
-          <a
-            class="btn btn--primary"
-            href="https://play.google.com/store/apps/details?id=com.sebasbanegas.crypto_notes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Descargar en Google Play
-          </a>
-        </div>
-        <div class="app-block__media screenshots">
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260421_142840.jpg"
-              alt="Cypher Notes: vista general de notas"
-              loading="lazy"
-            />
-          </figure>
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260422_150631.jpg"
-              alt="Cypher Notes: edición o detalle de nota"
-              loading="lazy"
-            />
-          </figure>
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260422_150636.jpg"
-              alt="Cypher Notes: opciones o configuración de seguridad"
-              loading="lazy"
-            />
-          </figure>
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260422_150650.jpg"
-              alt="Cypher Notes: bloqueo o biometría"
-              loading="lazy"
-            />
-          </figure>
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260422_150704.jpg"
-              alt="Cypher Notes: papelera"
-              loading="lazy"
-            />
-          </figure>
-          <figure class="screenshot">
-            <img
-              src="CYPHER_NOTES/Screenshot_20260422_150710.jpg"
-              alt="Cypher Notes: otra pantalla de la app"
-              loading="lazy"
-            />
-          </figure>
-        </div>
-      </section>
-
-      <section id="comparativa" class="section section--soft">
-        <div class="container compare">
-          <h2>La diferencia está en cómo te simplifican la vida</h2>
-          <p class="section-lead">
-            Estas apps están pensadas para acompañarte todos los días: menos fricción, más control y
-            una experiencia en la que podés confiar.
-          </p>
-          <div class="compare-grid">
-            <article class="compare-item">
-              <h3>Sin cuentas obligatorias</h3>
-              <p>Instalás, abrís y empezás. Sin registros largos ni pasos que te frenen.</p>
-            </article>
-            <article class="compare-item">
-              <h3>Sin dependencia de la nube</h3>
-              <p>Ambas apps funcionan localmente para darte continuidad y menos riesgo.</p>
-            </article>
-            <article class="compare-item">
-              <h3>Datos bajo tu control</h3>
-              <p>Tu información permanece en tu dispositivo, donde vos decidís qué hacer con ella.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="descargar" class="section container final-cta">
-          <h2>Descargalas ahora y ganá claridad desde el primer día.</h2>
-          <p>
-            Elegí la que más necesitás hoy o combiná ambas para ordenar tus finanzas y proteger tu
-            información personal.
-          </p>
-        <div class="download-grid">
-          <article class="download-card">
-            <h3>Dinario</h3>
-            <p>Finanzas personales claras y rápidas.</p>
+      <section id="dinario" class="app-section app-section--dinario">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="DINARIO/icono.png" alt="Icono de Dinario" />
+            <p class="eyebrow">Dinario</p>
+            <h2>Finanzas personales sin planillas ni ruido.</h2>
+            <p>
+              Registras movimientos, lees tu balance y entendes tus habitos sin friccion. Pensada para
+              uso diario, offline y con datos bajo tu control.
+            </p>
+            <ul class="feature-list">
+              <li>Registro rapido de ingresos y gastos.</li>
+              <li>Categorias, estadisticas y resumen mensual.</li>
+              <li>Experiencia simple para mantener constancia.</li>
+            </ul>
             <a
               class="btn btn--primary"
               href="https://play.google.com/store/apps/details?id=com.sebasbanegas.dinario"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Descargar Dinario en Google Play"
             >
               Descargar en Google Play
             </a>
-          </article>
-          <article class="download-card">
-            <h3>Cypher Notes</h3>
-            <p>Notas privadas protegidas por diseño.</p>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="DINARIO/APP/Screenshot_20260512_103911.jpg" alt="Dinario pantalla 1" />
+              <img src="DINARIO/APP/Screenshot_20260512_103922.jpg" alt="Dinario pantalla 2" />
+              <img src="DINARIO/APP/Screenshot_20260512_103930.jpg" alt="Dinario pantalla 3" />
+              <img src="DINARIO/APP/Screenshot_20260512_103938.jpg" alt="Dinario pantalla 4" />
+              <img src="DINARIO/APP/Screenshot_20260512_103948.jpg" alt="Dinario pantalla 5" />
+              <img src="DINARIO/APP/Screenshot_20260512_104022.jpg" alt="Dinario pantalla 6" />
+              <img src="DINARIO/APP/Screenshot_20260512_104030.jpg" alt="Dinario pantalla 7" />
+              <img src="DINARIO/APP/Screenshot_20260512_104035.jpg" alt="Dinario pantalla 8" />
+              <img src="DINARIO/APP/Screenshot_20260512_104051.jpg" alt="Dinario pantalla 9" />
+              <img src="DINARIO/APP/Screenshot_20260512_104100.jpg" alt="Dinario pantalla 10" />
+              <img src="DINARIO/APP/Screenshot_20260512_104105.jpg" alt="Dinario pantalla 11" />
+              <img src="DINARIO/APP/Screenshot_20260512_104113.jpg" alt="Dinario pantalla 12" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="cypher" class="app-section app-section--cypher">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="CYPHER_NOTES/caratula.jpg" alt="Icono de Cypher Notes" />
+            <p class="eyebrow">Cypher Notes</p>
+            <h2>Notas privadas con seguridad real.</h2>
+            <p>
+              Una app para escribir, guardar y consultar informacion sensible con una experiencia
+              directa, privada y lista para usar sin vueltas.
+            </p>
+            <ul class="feature-list">
+              <li>Notas protegidas con seguridad y biometria.</li>
+              <li>Papelera integrada para recuperar contenido.</li>
+              <li>Uso offline para mantener foco y control.</li>
+            </ul>
             <a
               class="btn btn--primary"
               href="https://play.google.com/store/apps/details?id=com.sebasbanegas.crypto_notes"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Descargar Cypher Notes en Google Play"
             >
               Descargar en Google Play
             </a>
-          </article>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="CYPHER_NOTES/Screenshot_20260421_142840.jpg" alt="Cypher Notes pantalla 1" />
+              <img src="CYPHER_NOTES/Screenshot_20260422_150631.jpg" alt="Cypher Notes pantalla 2" />
+              <img src="CYPHER_NOTES/Screenshot_20260422_150636.jpg" alt="Cypher Notes pantalla 3" />
+              <img src="CYPHER_NOTES/Screenshot_20260422_150650.jpg" alt="Cypher Notes pantalla 4" />
+              <img src="CYPHER_NOTES/Screenshot_20260422_150704.jpg" alt="Cypher Notes pantalla 5" />
+              <img src="CYPHER_NOTES/Screenshot_20260422_150710.jpg" alt="Cypher Notes pantalla 6" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="figus" class="app-section app-section--figus">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="FIGUS/icono.png" alt="Icono de Figus" />
+            <p class="eyebrow">Figus</p>
+            <h2>Tu album organizado. Gratis para empezar, Premium para ir mas lejos.</h2>
+            <p>
+              Segui tu coleccion, encontra faltantes y desbloquea herramientas avanzadas para compartir,
+              medir progreso y proteger tu album en la nube.
+            </p>
+            <ul class="feature-list">
+              <li>Seguimiento claro de figuritas disponibles y faltantes.</li>
+              <li>Premium: QR Trade para compartir e intercambiar.</li>
+              <li>Premium: estadisticas avanzadas y backup en la nube.</li>
+            </ul>
+            <a class="btn btn--muted" href="#figus" aria-disabled="true">Disponible proximamente</a>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="FIGUS/Screenshot_20260512_101319.jpg" alt="Figus pantalla 2" />
+              <img src="FIGUS/Screenshot_20260512_101443_Drive.jpg" alt="Figus pantalla principal" />
+              <img src="FIGUS/Screenshot_20260512_101305.jpg" alt="Figus pantalla 1" />
+              <img src="FIGUS/Screenshot_20260512_101343.jpg" alt="Figus QR Trade" />
+              <img src="FIGUS/Screenshot_20260512_101326.jpg" alt="Figus pantalla 3" />
+              <img src="FIGUS/Screenshot_20260512_101333.jpg" alt="Figus pantalla 4" />
+              <img src="FIGUS/Screenshot_20260512_101337.jpg" alt="Figus pantalla 5" />
+              <img src="FIGUS/Screenshot_20260512_101352.jpg" alt="Figus pantalla 7" />
+              <img src="FIGUS/Screenshot_20260512_101359.jpg" alt="Figus pantalla 8" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-wrap">
-        <p>© <span id="year"></span> BANTECH Apps. Todos los derechos reservados.</p>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>BANTECH Apps</span>
+        <span>© <span id="year"></span> Todos los derechos reservados.</span>
       </div>
     </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Imagen ampliada">
+      <button class="lightbox__close" type="button" aria-label="Cerrar imagen">×</button>
+      <img class="lightbox__img" id="lightbox-img" alt="Vista ampliada" />
+    </div>
 
     <script src="script.js"></script>
   </body>
