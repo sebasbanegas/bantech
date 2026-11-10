@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BANTECH | Aplicaciones móviles para el día a día</title>
+    <meta
+      name="description"
+      content="BANTECH crea aplicaciones para organizar tus finanzas, evaluar viajes de Uber, proteger notas y llevar colecciones. Conocé Dinario, BuenViaje, Cypher Notes y Figus."
+    />
+    <meta name="theme-color" content="#f5f7fb" />
+    <link rel="icon" type="image/png" href="LOGO_BANTECH.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container topbar">
+        <a class="brand" href="#inicio" aria-label="BANTECH inicio">
+          <img class="brand-logo" src="LOGO_BANTECH.png" alt="" />
+        </a>
+        <nav class="nav" aria-label="Navegacion principal">
+          <a href="#dinario">Dinario</a>
+          <a href="#buenviaje">BuenViaje</a>
+          <a href="#cypher">Cypher Notes</a>
+          <a href="#figus">Figus</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img class="hero-phone hero-phone--one" src="DINARIO/APP/inicio.jpg" alt="" />
+          <img class="hero-phone hero-phone--two" src="CYPHER_NOTES/APP/tipos-de-nota.jpg" alt="" />
+          <img class="hero-phone hero-phone--three" src="FIGUS/APP/inicio-albumes.png" alt="" />
+          <img class="hero-phone hero-phone--four" src="BUENVIAJE/APP/oferta-conviene.png" alt="" />
+        </div>
+        <div class="container hero-content">
+          <p class="eyebrow">Estudio de aplicaciones móviles</p>
+          <h1>BANTECH</h1>
+          <p class="hero-copy">
+            Herramientas para llevar tus finanzas, evaluar viajes, cuidar tus notas y organizar tus
+            colecciones, con funciones pensadas para el uso cotidiano.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#productos">Ver productos</a>
+            <a class="btn btn--ghost" href="#buenviaje">Conocer BuenViaje</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="productos" class="product-index">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Cuatro apps para resolver tareas concretas.</h2>
+          </div>
+          <div class="product-cards">
+            <a class="product-card" href="#dinario">
+              <img src="DINARIO/icono.png" alt="Icono de Dinario" />
+              <span>Dinario</span>
+              <small>Finanzas personales</small>
+            </a>
+            <a class="product-card" href="#buenviaje">
+              <img src="BUENVIAJE/icono.png" alt="Icono de BuenViaje" />
+              <span>BuenViaje</span>
+              <small>Asistente para Uber</small>
+            </a>
+            <a class="product-card" href="#cypher">
+              <img src="CYPHER_NOTES/caratula.jpg" alt="Icono de Cypher Notes" />
+              <span>Cypher Notes</span>
+              <small>Notas privadas</small>
+            </a>
+            <a class="product-card" href="#figus">
+              <img src="FIGUS/icono.png" alt="Icono de Figus" />
+              <span>Figus</span>
+              <small>Coleccionismo</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="dinario" class="app-section app-section--dinario">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="DINARIO/icono.png" alt="Icono de Dinario" />
+            <p class="eyebrow">Dinario</p>
+            <h2>Ingresos, gastos y reservas en un solo lugar.</h2>
+            <p>
+              Registrá gastos e ingresos, apartá dinero en reservas y seguí cuánto te queda disponible.
+              Dinario guarda tus datos en el teléfono y funciona sin cuenta.
+            </p>
+            <ul class="feature-list">
+              <li>Registrá gastos, ingresos, reservas, liberaciones y conversiones entre monedas.</li>
+              <li>Consultá saldos disponibles y reservados, movimientos y resúmenes mensuales.</li>
+              <li>Explorá estadísticas por categoría y período, y compará meses.</li>
+              <li>Exportá o importá copias de seguridad y compartí reportes en Excel.</li>
+            </ul>
+            <a
+              class="btn btn--primary"
+              href="https://play.google.com/store/apps/details?id=com.sebasbanegas.dinario"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Descargar en Google Play
+            </a>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="DINARIO/APP/inicio.jpg" alt="Dinario: inicio y accesos para registrar movimientos" />
+              <img src="DINARIO/APP/movimientos.jpg" alt="Dinario: listado de movimientos con filtros" />
+              <img src="DINARIO/APP/estadisticas.jpg" alt="Dinario: estadísticas y comparación por categoría" />
+              <img src="DINARIO/APP/ajustes.jpg" alt="Dinario: opciones e idiomas" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="buenviaje" class="app-section app-section--buenviaje">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="BUENVIAJE/icono.png" alt="Icono de BuenViaje" />
+            <p class="eyebrow">BuenViaje</p>
+            <h2>Evaluá cada oferta de Uber con los costos de tu auto.</h2>
+            <p>
+              BuenViaje descuenta los costos configurados para estimar cuánto te queda de una oferta.
+              Vos decidís: la app no acepta ni rechaza viajes.
+            </p>
+            <ul class="feature-list">
+              <li>Calculá combustible, gastos fijos según la duración y una reserva para el auto.</li>
+              <li>Compará el neto por kilómetro y por hora; reconocé los estados Conviene, Al límite y Zona sin verificar.</li>
+              <li>Importá barrios, dibujá zonas de exclusión y compartilas con otros conductores.</li>
+              <li>El plan Premium suma alertas, zonas de riesgo y estadísticas.</li>
+            </ul>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="BUENVIAJE/APP/oferta-conviene.png" alt="BuenViaje: oferta marcada como conveniente" />
+              <img src="BUENVIAJE/APP/oferta-al-limite.png" alt="BuenViaje: oferta al límite con neto y tiempo estimados" />
+              <img src="BUENVIAJE/APP/oferta-zona-sin-verificar.png" alt="BuenViaje: oferta con zona sin verificar" />
+              <img src="BUENVIAJE/APP/calculo-neto.png" alt="BuenViaje: cálculo de neto por kilómetro y por hora" />
+              <img src="BUENVIAJE/APP/zonas-caba.png" alt="BuenViaje: áreas de trabajo y zonas de exclusión en el mapa" />
+              <img src="BUENVIAJE/APP/importar-barrios.png" alt="BuenViaje: importar barrios populares de CABA" />
+              <img src="BUENVIAJE/APP/guia-zonas.png" alt="BuenViaje: guía para compartir zonas de exclusión" />
+              <img src="BUENVIAJE/APP/suscripcion.png" alt="BuenViaje: opciones de suscripción desde Google Play" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="cypher" class="app-section app-section--cypher">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="CYPHER_NOTES/caratula.jpg" alt="Icono de Cypher Notes" />
+            <p class="eyebrow">Cypher Notes</p>
+            <h2>Notas y listas con opciones de privacidad.</h2>
+            <p>
+              Guardá ideas como notas de texto, listas de tareas o notas con imágenes. Organizalas en
+              carpetas y protegé con cifrado las notas que elijas.
+            </p>
+            <ul class="feature-list">
+              <li>Protegé notas con una clave maestra y habilitá el acceso biométrico.</li>
+              <li>Buscá notas, organizalas en carpetas y recuperá elementos desde la papelera.</li>
+              <li>Exportá e importá copias de seguridad con tus notas y ajustes.</li>
+            </ul>
+            <a
+              class="btn btn--primary"
+              href="https://play.google.com/store/apps/details?id=com.sebasbanegas.crypto_notes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Descargar en Google Play
+            </a>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="CYPHER_NOTES/APP/seguridad.jpg" alt="Cypher Notes: biometría y clave maestra" />
+              <img src="CYPHER_NOTES/APP/tipos-de-nota.jpg" alt="Cypher Notes: crear notas de texto, tareas e imágenes" />
+              <img src="CYPHER_NOTES/APP/copias-de-seguridad.jpg" alt="Cypher Notes: exportar e importar copias de seguridad" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="figus" class="app-section app-section--figus">
+        <div class="container app-layout">
+          <div class="app-copy">
+            <img class="app-icon" src="FIGUS/icono.png" alt="Icono de Figus" />
+            <p class="eyebrow">Figus</p>
+            <h2>Álbumes de figuritas y cartas, a tu manera.</h2>
+            <p>
+              Llevá el progreso de tus colecciones, encontrá faltantes y repetidas y compartí una
+              planilla PDF de tu álbum. Figus incluye colecciones de figuritas, películas y cartas TCG.
+            </p>
+            <ul class="feature-list">
+              <li>Registrá figuritas y cartas, y consultá faltantes y repetidas.</li>
+              <li>Exportá o compartí el álbum en PDF gratis.</li>
+              <li>Premium agrega intercambio QR, estadísticas avanzadas y copias de seguridad.</li>
+            </ul>
+            <a class="btn btn--muted" href="#figus" aria-disabled="true">Próximamente</a>
+          </div>
+          <div class="showcase" data-carousel>
+            <button class="carousel-btn prev" type="button" aria-label="Anterior">‹</button>
+            <div class="showcase-track" data-track>
+              <img src="FIGUS/APP/inicio-albumes.png" alt="Figus: pantalla principal con todos los álbumes" />
+              <img src="FIGUS/APP/album.jpg" alt="Figus: álbum FIFA WC 2026" />
+              <img src="FIGUS/APP/coleccion.jpg" alt="Figus: progreso de la colección" />
+              <img src="FIGUS/APP/progreso.jpg" alt="Figus: seguimiento del álbum" />
+              <img src="FIGUS/APP/estadisticas.jpg" alt="Figus: estadísticas de colección" />
+              <img src="FIGUS/APP/coleccion-detalle.jpg" alt="Figus: detalle de figuritas" />
+              <img src="FIGUS/APP/intercambio-qr.jpg" alt="Figus: intercambio QR" />
+              <img src="FIGUS/APP/coleccion-b.jpg" alt="Figus: otra vista de colección" />
+              <img src="FIGUS/APP/coleccion-c.jpg" alt="Figus: vista de álbum" />
+              <img src="FIGUS/APP/exportar-album.jpg" alt="Figus: exportación del álbum en PDF" />
+            </div>
+            <button class="carousel-btn next" type="button" aria-label="Siguiente">›</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>BANTECH Apps</span>
+        <span>© <span id="year"></span> Todos los derechos reservados.</span>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Imagen ampliada">
+      <button class="lightbox__close" type="button" aria-label="Cerrar imagen">×</button>
+      <img class="lightbox__img" id="lightbox-img" alt="Vista ampliada" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

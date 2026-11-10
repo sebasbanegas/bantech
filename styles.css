@@ -65,10 +65,14 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  font-family: "Sora", sans-serif;
-  font-weight: 800;
-  letter-spacing: 0;
+  width: 68px;
+  height: 62px;
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand-mark {
@@ -144,6 +148,11 @@ a {
 .hero-phone--three {
   right: 23%;
   bottom: 10%;
+}
+
+.hero-phone--four {
+  right: 2%;
+  bottom: 18%;
 }
 
 .hero-content {
@@ -294,6 +303,14 @@ h2 {
 
 .app-section--figus {
   background: #fffaf2;
+}
+
+.app-section--buenviaje {
+  background: #f2f7ff;
+}
+
+.app-section--buenviaje .feature-list li::before {
+  background: #2563eb;
 }
 
 .app-layout {
@@ -478,7 +495,13 @@ h2 {
 
 @media (min-width: 720px) {
   .product-cards {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .product-cards {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
@@ -509,7 +532,7 @@ h2 {
   }
 
   .hero-phone--one {
-    left: 13%;
+    left: 3%;
     right: auto;
     top: auto;
     bottom: 2.5rem;
@@ -517,7 +540,7 @@ h2 {
   }
 
   .hero-phone--two {
-    left: 61%;
+    left: 27%;
     right: auto;
     top: auto;
     bottom: 2.8rem;
@@ -525,11 +548,19 @@ h2 {
   }
 
   .hero-phone--three {
-    left: 37%;
+    left: 51%;
     right: auto;
     top: auto;
     bottom: 1.2rem;
     z-index: 3;
+  }
+
+  .hero-phone--four {
+    left: 75%;
+    right: auto;
+    top: auto;
+    bottom: 2.8rem;
+    z-index: 2;
   }
 
   .hero-content {
